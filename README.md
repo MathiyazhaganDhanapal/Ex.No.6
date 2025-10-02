@@ -50,6 +50,9 @@ Write and implement Python code that integrates with multiple AI tools to automa
  3. Process 2 (Hugging Face): Text Output → JSON Output (Sentiment: 'POSITIVE', Score: 0.98).
  4. Comparison: The Python script extracts the Score and compares it to the 0.90 threshold.
  5. Output (Insight): Based on the comparison, it prints the appropriate message (Pass or Flag).
+
+<img width="330" height="186" alt="image" src="https://github.com/user-attachments/assets/8e6620b2-4e74-470f-be45-9b7741bf2dd3" />
+
  # Python Implementation Details:
  The implementation leverages the openai SDK for the LLM and the requests library for the RESTful Hugging Face API, highlighting the
  protocol compatibility required for multi-tool integration.
